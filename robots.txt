@@ -1,0 +1,44 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /scripts/
+Disallow: /config/
+
+# Block specific file types
+Disallow: /*.php$
+Disallow: /*.sql$
+Disallow: /*.bak$
+Disallow: /*.old$
+Disallow: /*.inc$
+
+# Allow only certain crawlers to access specific directories
+User-agent: Googlebot
+Allow: /public/
+Allow: /images/
+Disallow: /private/
+
+User-agent: Bingbot
+Allow: /public/
+Allow: /images/
+Disallow: /private/
+
+# Block bad bots
+User-agent: BadBot
+Disallow: /
+
+# Crawl-delay for specific crawlers (to prevent server overload)
+User-agent: *
+Crawl-delay: 10
+
+# Allow all search engines to crawl your CSS, JS, and images
+Allow: /*.css
+Allow: /*.js
+Allow: /images/
+
+# Sitemap locations
+Sitemap: https://codehippo.net/sitemap.xml
+
+# Host directive (for Yandex and some other search engines)
+Host: https://codehippo.net
