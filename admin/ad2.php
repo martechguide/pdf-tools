@@ -1,0 +1,1 @@
+<center><b>Advertisements</b></center>
