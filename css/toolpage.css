@@ -1,0 +1,943 @@
+.container-tool{
+   
+    background:#fff;
+    padding:10px;
+    
+    
+}
+
+.container-tool2{
+   
+    background:#fff;
+    padding:15px;
+    height:185px;
+    
+    
+}
+
+.container2{
+    margin-top:10px;
+    border-radius:50px;
+    background: #F0FFF0;
+    padding:30px 20px;
+    max-width:99%;
+    margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
+    
+}
+
+
+.container3{
+     margin-top:10px;
+    border-radius:50px;
+    background: #FDF5E6;
+    padding:30px 20px;
+    max-width:99%;
+    margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
+     
+}
+.container4{
+     margin-top:10px;
+    border-radius:50px;
+    background: #FAFAD2;
+    padding:30px 20px;
+    max-width:99%;
+    margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
+     
+}
+.container5{
+     margin-top:10px;
+    border-radius:50px;
+    background: #E0FFFF;
+    padding:30px 20px;
+    max-width:99%;
+    margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
+     
+}
+.container6{
+      margin-top:10px;
+    border-radius:50px;
+    background: #F5F5F5;
+    padding:30px 20px;
+    max-width:99%;
+    margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
+     
+}
+
+.tabbed-menu {
+    max-width: 96%;
+    margin: 0px auto;
+    background: white;
+    border-radius: 11px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top:-95px;
+     margin-bottom:55px;
+}
+
+.tab-list {
+    list-style: none;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    border-bottom: 2px solid #E5322D;
+   
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    background: #D6E3FF;
+    border-right: 2px solid #ddd;
+    transition: background 0.3s ease, color 0.3s ease;
+    color: #555;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab .icon {
+    margin-right: 8px;
+    fill: currentColor; /* This ensures the icon color matches the text */
+}
+
+.tab:hover {
+    background: #405AE6;
+    color:white;
+}
+
+
+.tab:last-child {
+    border-right: none;
+}
+
+.tab.active {
+    background: #E5322D;
+    color: white;
+    border-bottom: 0px solid #E5322D;
+}
+
+.tab-content {
+    padding: 20px;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .tab-list {
+        flex-direction: column;
+    }
+
+    .tab {
+        border-right: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    .tab:last-child {
+        border-bottom: none;
+    }
+}
+
+.tab i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+#ads{
+    text-align:center;
+    margin:20px 0 0 0;
+    
+    
+}
+
+ .toolarea{
+          max-width: 90%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+     padding:50px;
+     align-items:center;
+     text-align:center;
+      }
+      .container-toolarea{
+          height:135px;
+          background:#DEE2EF;
+          padding:0px;
+      }
+      .toolarea-pdf{
+          max-width: 94%;
+    margin: 50px auto;
+   background-color: #4682B4; /* Optional background color */
+    background-image: 
+        linear-gradient(transparent 95%, rgba(255, 255, 255, 0.2) 5%), 
+        linear-gradient(90deg, transparent 95%, rgba(255, 255, 255, 0.2) 5%);
+    background-size: 20px 20px; 
+    background-position: center;
+    border-radius: 5px;
+    border:12px double #fff;
+    overflow: hidden;
+     padding:40px;
+     align-items:center;
+     text-align:center;
+      }
+ .toolarea-pdf1{
+          max-width: 94%;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 5px;
+    border:12px double #FB13AB;
+    overflow: hidden;
+     padding:40px;
+     align-items:center;
+     text-align:center;
+      }
+       .toolarea-pdf-gradio{
+          max-width: 94%;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 5px;
+    border:12px double #FB13AB;
+    overflow: hidden;
+     padding:40px;
+     align-items:center;
+     text-align:center;
+     height:1700px;
+      }
+/* Base Styles for .bg-tool */
+.bg-tool {
+    background: transparent;
+    text-align: center;
+    color: #333;
+    padding-top: 100px;
+}
+
+/* Base Styles for h1 */
+.bg-tool h1 {
+    color: #E5322D;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .bg-tool {
+        padding-top: 100px; /* Reduce padding on smaller screens */
+    }
+
+    .bg-tool h1 {
+        font-size: 32px; /* Adjust font size for better readability */
+    }
+}
+
+/* Mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .bg-tool {
+        padding-top: 100px; /* Further reduce padding on mobile */
+    }
+
+    .bg-tool h1 {
+        font-size: 28px; /* Smaller font size for mobile devices */
+        margin-bottom: 15px; /* Adjust bottom margin */
+    }
+}
+
+    /* Styling for the entire text section */
+.text-section {
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 40px 90px 40px 90px;
+  background-color: #fff;
+ border-top:1px solid #ccc;
+ border-bottom:1px solid #ccc;
+}
+
+/* H2 styling */
+.section-heading {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* H3 styling */
+.section-subheading {
+  font-size: 1.8rem;
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+/* Paragraph styling */
+.section-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .section-subheading {
+    font-size: 1.0rem;
+  }
+
+  .section-description {
+    font-size: 0.75rem;
+    max-width: 90%;
+  }
+}
+
+
+
+
+
+
+/* Button Styles */
+button, .button, #button, 
+btn, .btn, #btn, 
+downloadlink, #download-button, 
+#button-copy, button-copy, 
+copy-button, #copy-button, 
+#copy, copy, #download-html-button, 
+[type="button"], [type="submit"], 
+[type="reset"], #download-btn-html, 
+#download-btn-txt, #download-link, 
+#download, #downloadButton, 
+#downloadLink, #convertButton, 
+#downloadButton, #convert-pdf-button, 
+#download-pdf-button, #start-btn, 
+#stop-btn, #copy-btn, #download-btn, 
+#download-pdf-btn, #convert-btn, 
+#convertBtn, #downloadBtn, 
+#splitButton, #downloadPdf {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    text-transform: normal;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #fff, #f5f5fa);
+    border: 4px double #E5322D;
+    transition: all 0.3s ease;
+    margin: 10px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-right: 10px; 
+    text-align:center;
+}
+
+
+/* Button Hover State */
+button:hover,  #convert-pdf-button:hover, #download-pdf-button:hover, #convert-btn:hover, #convertBtn:hover, #splitButton:hover {
+ background-image: linear-gradient(to left, #fff, #ffff63);
+  
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+ .input{
+  width: 80%;
+  height: 100%;
+  padding: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #06c, #f90) 1;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ccc;
+  transition: all 0.2s ease-in-out;
+  margin-top:10px;margin-bottom:10px;
+  margin:0 auto;
+}
+
+
+
+#upload-button:hover {
+  background-image: linear-gradient(to left, #FF3D47, #DC1113);
+}
+
+#upload-button, .upload-button{
+    
+    display: inline-block;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform:uppercase;
+  background-image: linear-gradient(to right, #E5322D, #fff);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-bottom:25px;
+    color:white;
+    max-width:100%;
+}
+
+.upload-button:hover, #upload-button:hover {
+  background-image: linear-gradient(to left, #1A8FE3, #3023AE);
+   border-radius: 12px;
+   border:12px double #fff;
+   color:white;
+}
+#uploadBtn{
+            display: inline-block;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #E5322D;
+  text-align: center;
+  text-transform:none;
+  background: linear-gradient(135deg, #fff, #FFFFE0);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  border:0;
+  margin-bottom:25px;
+        }
+
+input[type=file]::file-selector-button {
+  display: inline-block;
+  padding: 20px 26px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #E5322D;
+  text-align: center;
+  text-transform:none;
+  background: linear-gradient(135deg, #fff, #FFFFE0);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width:100%;
+  border:0;
+  margin-bottom:25px;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: linear-gradient(135deg, #FFFFE0, #fff);
+   border-radius: 0;
+   border:0;
+   color:#402647;
+}
+
+input[type=file]::file-selector-button:active {
+  background-color: #4a41ad;
+}
+
+input[type=file]::file-selector-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #6c63ff;
+}
+
+input[type=file]::file-selector-button::before {
+  content: "Select File";
+}
+
+input[type=file]::file-selector-button::before,
+input[type=file]::file-selector-button::before {
+  content: "\2193 Browse Files";
+}
+
+
+input[type="file"] {
+  display: yes;
+}
+
+
+input[type="text"], input[type="url"], #url-input  {
+  width: 50%;
+  height: 45px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background:#fff;
+  border-radius: 50px;
+  border:2px solid #1A8FE3;
+  transition: all 0.2s ease-in-out;
+  margin:10px auto;
+}
+input[type="number"]{
+  height: 45px;
+  padding: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background:#F9F9F9;
+  border-radius: 5px;
+  border:1px solid #ccc;
+  transition: all 0.2s ease-in-out;
+  margin-top:10px;margin-bottom:30px;
+  margin:0 auto;
+}
+select {
+  height: 45px;
+  padding: 5px 15px; 
+  font-size: 16px;
+  margin-left:11px;
+  background:#fff;
+  border-radius: 7px;
+  border:2px solid #ddd;
+  transition: all 0.2s ease-in-out;
+  margin:10px auto; 
+}
+textarea, #base64Input {
+  width: 90%;
+  height: 150px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background:#FFF;
+  border-radius: 5px;
+   border:0px solid orangered;
+  transition: all 0.2s ease-in-out;
+  margin-top:10px;margin-bottom:15px;
+  margin:10px auto;
+}
+
+textarea:hover {
+  border-color: #06c;
+  box-shadow: none;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #55555e;
+  box-shadow: none;
+}
+
+
+#success-message{
+    font-size:22px;
+    color:green;
+    font-weight:bold;
+    margin:30px auto;
+    
+}
+canvas, #image-container, .img, #img, image, .image, #image, #convertedImage, #preview-image, #image-canvas {
+  border: 5px solid white;
+  
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  
+  width:40%;
+  margin:20px auto;
+  padding:15px;
+  background:white;
+}
+
+#image-container img {
+  max-width: 100%;
+  }
+
+pre, #result, output, #output, .output,#output-text, #speechOutput {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  padding: 0.2em 0.4em;
+  border-radius: 5px;
+  border:2px solid #ccc; 
+  transition: all 0.2s ease-in-out;
+  white-space: pre-wrap;
+  text-align:left;
+  width:90%;
+  padding:15px;
+  margin:20px auto;
+
+}
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 80%;
+  background: transparent;
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: inset 0 0 5px #333;
+  transition: box-shadow 0.2s;
+  margin-top:10px;
+
+}
+
+input[type="range"]:focus {
+  box-shadow: inset 0 0 5px #888;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #CA0505;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top:-5px;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #3e8e41;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+  border: none;
+}
+input[type="checkbox"] {
+  appearance: none;
+  width: 45px;
+  height: 20px;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  margin: 0px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  padding:5px;
+}
+input[type="checkbox"]:before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background: #4B71AB;
+  border-radius: 100px;
+  position: absolute;
+  left: 2px;
+  
+  top: 2.5px;
+  transition: all 0.2s;
+}
+
+input[type="checkbox"]:checked:before {
+  transform: translateX(20px);
+}
+
+input[type="checkbox"]:focus {
+  border: 1px solid #888;
+}
+input[type="radio"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  margin-right: 10px;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="radio"]:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #333;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+input[type="radio"]:checked:after {
+  opacity: 1;
+}
+
+input[type="radio"]:focus {
+  border-color: #888;
+}
+
+
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+label {
+  display: block; /* makes each label appear on a new line */
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px; /* adds a small gap below each label */
+  color:#55555e;
+  margin-top:11px;
+}
+
+/* Styling for input[type="color"] */
+input[type="color"] {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none; /* Remove default focus outline */
+}
+
+/* Style the color preview box */
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+}
+
+
+.form-control {
+    display: block;
+    margin:0 auto;
+    max-width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#avepdf-container-id {
+  /* Add your desired styles for the container here */
+  width: 100%;
+  height: 340px;
+  position: relative;
+  margin-bottom:-150px;
+  
+ 
+}
+
+/* CSS to hide an area from the bottom */
+#avepdf-container-id .your-targeted-element {
+  display: none;
+}
+
+
+   
+
+    input[type="file"] {
+      margin-top: 20px;
+    }
+
+ #options-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    #orientation-options,
+    #padding-options {
+      margin: 10px;
+    }
+
+    #orientation-label,
+    #padding-label {
+      margin-right: 10px;
+    }
+
+    #progress-bar {
+      width: 90%;
+      margin: 20px auto;
+      background-color: transparent;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    #progress-fill {
+      height: 30px;
+      background-color: #3F5EF9;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+      width: 0;
+      border-radius:50px;
+    }
+
+    #success-message {
+      display: none;
+      margin-top: 20px;
+    }
+
+
+
+  .page-container {
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+        width:350px;
+        background:white;
+        padding:11px;
+        border:2px solid #1A8FE3;
+    }
+
+.page{
+ width:300px;   
+    
+}
+
+#conversion-message {
+  display: block;
+  margin-top: 10px; /* Adjust spacing as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  color: #333; /* Adjust text color as needed */
+}
+
+#conversion-progress {
+  display: block;
+  margin-top: 10px; /* Adjust spacing as needed */
+  width: 100%; /* Make progress bar full width */
+  height: 20px; /* Adjust height as needed */
+  border-radius: 10px; /* Adjust border radius for rounded corners */
+  background-color: #f0f0f0; /* Adjust background color of progress bar */
+}
+
+#conversion-progress::-webkit-progress-bar {
+  background-color: #f0f0f0; /* Adjust background color of progress bar track */
+  border-radius: 10px; /* Adjust border radius for rounded corners */
+}
+
+#conversion-progress::-webkit-progress-value {
+  background-color: #3F5EF9; /* Adjust background color of progress bar fill */
+  border-radius: 10px; /* Adjust border radius for rounded corners */
+}
+
+#conversion-progress::-moz-progress-bar {
+  background-color: #3F5EF9;
+  border-radius: 10px; 
+}
+
+
+#imgsec{
+            padding:20px;
+            max-width:100%;
+            margin:11px auto;
+            border:1px solid #3F5EF9;
+            background:#fff;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+            border-radius:12px;
+            
+        }
+
+ #orientation, #padding{
+        width:50%;
+        
+    }
+
+
+ .upload-icon {
+      display: block;
+      margin: 25px auto;
+      font-size: 50px;
+      color: #007bff;
+    }
+   
+    .drag-drop, #drag-drop-area, #dragDropArea {
+      border: 2px dashed #fff;
+      padding: 10px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      max-width:100%;
+     
+    }
+    
+     #fileNameDisplay, #fileName, #fileInfo{
+          padding:10px;
+          border:2px dashed #ddd;
+          border-radius:5px;
+          background:#fff;
+          color:navy;
+          font-size:14px;
+          font-weight:bold;
+          margin:10px auto;
+          max-width:60%;
+      }
+    #drag-drop-area:hover {
+        border-color: #0056b3;
+    }
+    #avepdf-container-id {
+  /* Add your desired styles for the container here */
+  width: 100%;
+  height: 450px;
+  position: relative;
+  margin-bottom:-150px;
+  
+}
+
+/* CSS to hide an area from the bottom */
+#avepdf-container-id .your-targeted-element {
+  display: none;
+}
+      #backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #E5322D;
+    color: red;
+    border: 1px solid red;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#backToTopBtn:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+#backToTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s;
+}
+
+/* Responsive for smaller devices */
+@media only screen and (max-width: 600px) {
+    #backToTopBtn {
+        padding: 10px;
+        font-size: 18px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
